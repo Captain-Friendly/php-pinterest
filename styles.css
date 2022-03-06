@@ -1,0 +1,67 @@
+body{
+    background-color: #1abc9c;
+}
+header{
+    background-color: darksalmon;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid black 1px;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    border-top: solid black 1px;
+}
+
+.timbre{
+    display: inline-block;
+    padding: 1%;
+    background-color: lightblue;
+    margin: 1%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    max-height: 150px;
+    max-width: 200px;
+}
+
+.grandImage{
+    max-height: 750px;
+    max-width: 1000px;
+}
+
+.commentaires{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.comment{
+    display: inline-block;
+    padding: 1%;
+    background-color: rgb(196, 206, 209);
+    color: #9b4311;
+    margin: 1%;
+    text-align: center;
+    border: #1abc9c solid 1px;
+    max-width: 150px;
+}
+
+#user{
+    font-size: medium;
+    font-weight: bold;
+}
